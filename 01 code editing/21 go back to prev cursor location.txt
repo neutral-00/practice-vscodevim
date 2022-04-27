@@ -1,0 +1,2 @@
+ctrl + o
+to come back press ctrl + i

@@ -1,0 +1,3 @@
+v af
+- magically expand your selection but first you should be in visual mode
+- it selects in increasing code blocks, very handy to select code blocks within curly braces of html

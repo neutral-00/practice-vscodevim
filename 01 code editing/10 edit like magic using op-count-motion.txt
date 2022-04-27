@@ -1,0 +1,5 @@
+- dj5 		:	delete 5 lines down
+- df' 		:	delete in the current line until the first occurence of ' (including ')
+- dt'		: 	delete in the current line until the first occurence of ' (excluding ')
+- d/hello	:	delete everything in the line until first occurence of hello (excluding hello)
+ggdG		:	delete the complete document

@@ -1,0 +1,3 @@
+got visual mode: press v
+then type at to select as tag.
+pre o to switch back and forth

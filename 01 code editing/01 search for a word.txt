@@ -1,0 +1,10 @@
+- [x] in normal mode type /word_to_search
+then press enter to search forward
+
+- [x] to search backward use ? instead of /
+
+- [x] to search with last search word simply press enter
+
+- [x] use * to search for word under current cursor
+
+- [x] after pressing enter press n to go to next occurence and N to to go prev occurence 

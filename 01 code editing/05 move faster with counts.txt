@@ -1,0 +1,3 @@
+syntax is {count}motion
+
+like 2w to move by 2 words

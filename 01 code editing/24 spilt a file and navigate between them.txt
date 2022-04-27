@@ -1,0 +1,8 @@
+:sp name_of_file
+this will split the file in a row fashion
+
+:vsp name_of_file
+this will split in the file in col fashion or vertically
+
+use Ctrl + WW navigate between them
+use ctrl + F4 to close

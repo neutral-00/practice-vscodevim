@@ -1,0 +1,13 @@
+suppose you have the below html elements
+
+    <section class="row">
+        <p>Some Paragraph</p>
+        <h3 class="bg-success">Awesome editing</h3>
+        <h4 class="bg-warn">Yet Big Another editing</h4>
+        <p>Yet another section</p>
+        <span>Some Span Content</span>
+        <div class="col-12">Footer Text</div>
+    </section>
+
+suppose you want to change section with div
+then bring the cursor to anywhere in section and type csttdiv + enter

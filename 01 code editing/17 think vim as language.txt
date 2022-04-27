@@ -1,0 +1,2 @@
+think of operators as functions and counts and motions as arguments
+remember ocm - operator count motions 

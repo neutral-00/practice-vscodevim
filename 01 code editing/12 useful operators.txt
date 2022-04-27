@@ -1,0 +1,11 @@
+y	:	for copy
+p	:	for paste
+c	:	for change
+d	:	for delete
+
+dd	:	deletes the current line
+cc	:	changes the current line
+g~$	:	toggles case for whole line
+
+D	:	Delete from current cursor position till end of line
+C	:	Change from current cursor position till end of line

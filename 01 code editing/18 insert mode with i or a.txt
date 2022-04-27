@@ -1,0 +1,7 @@
+i	:	inserts before the cursor
+a	: 	appends after the cursor
+I	: 	puts to insert mode at the beginning to the line
+A	:	appends to end of line
+o	:	insert a new line below the current cursor
+O	:	insert a new line above the current cursor
+gi	:	takes u back the last insert mode place

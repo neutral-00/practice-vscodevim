@@ -1,0 +1,12 @@
+daw	:	delete a word (plus trailing white space)
+diw	:	delete a word (excluding trailing white space)
+ciw	:	change inner word
+da"	:	delete everything within " including "
+di"	:	delete inside of " excluding "
+ca"	:	change everything within " including "
+ci"	:	delete inside of " excluding "
+da{	:	delete everything inside of { } including it
+di{	:	delete everyting insid of {} excluding {}
+ca{	:	change everything inside of { } including it
+ci{	:	change everything inside of {} excluding {}
+

@@ -1,0 +1,3 @@
+- go to beginning of file:	gg
+- go to end of file:		G
+- go to a line:			{line}gg

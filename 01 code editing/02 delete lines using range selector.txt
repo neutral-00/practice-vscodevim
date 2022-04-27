@@ -1,0 +1,2 @@
+:22,24d		: delete line in the range 22 to 24 inclusive
+:20d		: deletes line 20

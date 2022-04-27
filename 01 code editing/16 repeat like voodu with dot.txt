@@ -1,0 +1,9 @@
+repeat the prev change with .
+like you have 2 h2 as below
+
+        <h2 class="text-success">Awesome editing</h2>
+        <h2 class="text-success">Another editing</h2>
+
+suppose you want to change both to span instead
+you can change the first one with csttspan + enter
+for the second one you can just press .

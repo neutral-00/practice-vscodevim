@@ -1,0 +1,2 @@
+for single toggle just press ~
+for a word select it first and press ~

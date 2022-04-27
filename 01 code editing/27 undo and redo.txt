@@ -1,0 +1,10 @@
+## Pre-requisite
+- [x] press ESC to go back to normal mode
+
+## Undo
+- [x] and press u to undo the last change.
+- [x] press 2u to undo the last two changes.
+
+## Redo
+- [x] press Ctrl-r
+

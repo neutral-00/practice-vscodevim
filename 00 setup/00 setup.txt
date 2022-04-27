@@ -1,0 +1,91 @@
+## Reference
+> https://www.barbarianmeetscoding.com/blog/boost-your-coding-fu-with-vscode-and-vim
+
+## Installation
+- open vscode type ctrl + shift + x
+- type vim
+- install the one by vscodevim
+- restart vscode
+
+## Move around - baby steps
+- use hjkl to move around
+- press i to start editing (insert mode)
+- back to normal mode by press ESC or ctrl + c
+
+## Move fast - using motions
+- 1. jump from word to word	:	w
+- 2. jump backe word to word	:	b
+- 3. jump to end of word	:	e
+- 4. jump to end of word back	;	ge
+- words in vim doesn't include . ( { 
+- to include them use capital equivalents of the above 1 to 4 like w, B, E, gE
+
+## Move to specific charracter - IN A LINE
+- use f{char} to move to the next occurence of char
+- use F{char} to move to the prev occurence of char
+- use t{char} to move to just b 4 the next occurence of char
+- after using f{char} your can type : to next occurence or , to go to prev occurence
+
+## Move to horizontal extremes
+- 0 move to the first character of a line
+- ^ move to the first non-blank char of a line
+- $ move to the end of a line
+- g_ move to the non-blank char at the end of a line
+
+
+## Move vertically
+- } jumps entire paragraph
+- { jumps entire prargraph but upwards
+- ctrl + d move down half a page
+- ctrl + u move up hapf a page
+
+
+## High precision vertical motions
+- /{pattern} search forward inside a file
+- ?{pattern} search backward inside a file
+- after pressing enter press n to go to the next match and N to go to the prev match
+
+## Move fatser with counts
+- count{motion} allows to multiply the effects of the motion
+- example 5j will move 5 lines down
+- 10k will move 10 lines above
+- gd jump to the defn fo what is under the cursor
+- gf jump to a file in an import
+
+## some more nifty core motions
+- gg goto top of the file
+- {line}gg to go specific line
+- G to to end of file
+- % jump to matching ({[]})
+
+## editing like magic
+- {operator}{cont}{motion}
+- operator is an action to perform like delete / change / yank etce
+- count is the multiplier fo perform an acgtion
+- motion represents a piece of text to which to apply the action
+- example
+	- dj5 deletes 5 lines down
+	- df' delete everything in the current line until the first occurence of ' (including the character)
+	- dt' delete everthing in the current line until the first occurence of ' (excluding the character)
+	- d/hello delete everything until the first occurence of hello
+	- ggdG deletes a complete document
+
+## other useful operators
+- c aka change deletes and sends you to insertion mode
+- y aka yank is to copy
+- p aka put is to paste
+- g~ to toggle caps
+- double these operators to operate on a whole line
+- dd changes a whole line
+- dd deletes a whole line
+- capitalize an operator to operate from the cursor to the end of line
+- C changes to the end of line
+- D deletes from cursor to the end of line
+
+## useful settings
+- set toggle line numbers
+	- press esc and type :set number
+	- press esc and type :set nonumber
+	- press esc and type :set relativenumber
+
+

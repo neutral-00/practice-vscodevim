@@ -1,0 +1,25 @@
+## Forward from current cursor location
+
+[x] leader leader w		:	jump to start of word (forward direction)
+[x] leader leader e		:	jump to end of word (forward direction)
+
+## Backward from current cursor location
+
+[x] leader leader b		:	jump to start of word backwards
+[x] leader leader ge		:	jump to end of word backwards
+
+## Jump by line
+
+[x] leader leader j		:	jump donw by line starting
+[x] leader leader k		:	jump up by line starting
+
+## Jump with search option (applies to whole doc)
+
+[x] leader leader /search_term	(both directions)
+
+
+## Jump with F{char} and f{char}
+
+[x] leader leader F{char}	: 	jump backward looking for a character		
+[x] leader leader f{char}	:	jump forward looking for a character
+
