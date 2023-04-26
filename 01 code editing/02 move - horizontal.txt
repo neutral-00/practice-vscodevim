@@ -1,0 +1,10 @@
+## Move up or down by page (around 13 lines)
+Down:	ctrl + d
+Up:	ctrl + u
+
+## Move vertically
+- } jumps entire paragraph
+- { jumps entire prargraph but upwards
+- paragraphs are seperated by blank lines
+- ctrl + d move down half a page
+- ctrl + u move up hapf a page

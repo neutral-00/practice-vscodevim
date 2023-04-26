@@ -1,8 +1,9 @@
+## Search and replace in a range
 :<range>s/search/replace
 
 example:
-[x] :s/old/new/g 		:	changes in all line 
-[x] x:18,19s/text/bg		:	change text to bg in the range 18 to 19 inclusive
+[x] :s/old/new/g 		:	changes in 
+[x] :18,19s/text/newtext		:	change text to newtext in the range 18 to 19 inclusive
 [x] :.,$s/h2/h3/g		:	replace all h2 with h3 from current line with end
 [x] :19s/h3/h4/g		:	replace all h3 in line 19 to h4
 

@@ -1,0 +1,24 @@
+## Jump by words in the same line - using motions
+
+- 1. jump from word to word : w
+- 2. jump back word to word : b
+- 3. jump to end of word : e
+- 4. jump to end of word back : ge
+- words in vim doesn't include . ( {
+- to include them use capital equivalents of the above 1 to 4 like w, B, E, gE
+
+
+## Move to horizontal extremes
+- 0 move to the first character of a line
+- ^ move to the first non-blank char of a line
+- $ move to the end of a line
+- g_ move to the non-blank char at the end of a line
+
+
+
+## Move to specific charracter - IN A LINE
+
+- use f{char} to move to the next occurence of char
+- use F{char} to move to the prev occurence of char
+- use t{char} to move to just b 4 the next occurence of char
+- after using f{char} your can type : to next occurence or , to go to prev occurence

@@ -1,2 +1,0 @@
-Down:	ctrl + d
-Up:	ctrl + u

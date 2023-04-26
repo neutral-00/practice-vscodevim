@@ -1,0 +1,5 @@
+## Move around - baby steps
+
+- use hjkl to move around
+- press i to start editing (insert mode)
+- back to normal mode by press ESC or ctrl + c

@@ -1,0 +1,27 @@
+## delete lines using range selector
+:22,24d		: delete line in the range 22 to 24 inclusive
+:20d		: deletes line 20
+
+## Delete current line
+dd
+
+## Delete till end of line
+dg_
+
+## Delete till beginning of line
+d^
+d0
+
+## Delete current word
+diw
+
+## Delete till "
+dt"   
+will delete contents from current cursor location to "(excluding ")
+to do the same in backward direction do dT"
+
+## Delete till end of word
+dw
+
+## Delete till you find a character r
+dfr
