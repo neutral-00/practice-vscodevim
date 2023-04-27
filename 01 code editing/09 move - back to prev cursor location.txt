@@ -1,2 +1,3 @@
+Move a cursor in two places
 ctrl + o
 to come back press ctrl + i

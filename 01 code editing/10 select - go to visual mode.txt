@@ -1,0 +1,3 @@
+First be in normal mode by pressing  ESC then press
+v	:	to go to visual mode character wise
+V	:	to go to visual mode line wise

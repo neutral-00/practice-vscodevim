@@ -1,2 +1,0 @@
-v	:	go to visual mode character wise
-V	:	go to visual mode line wise

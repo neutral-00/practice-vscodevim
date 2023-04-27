@@ -1,3 +1,4 @@
 syntax is {count}motion
 
 like 2w to move by 2 words
+like 5j to move down by 5 lines

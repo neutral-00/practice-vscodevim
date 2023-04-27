@@ -10,7 +10,7 @@
 
 ## Jump by line
 
-[x] leader leader j		:	jump donw by line starting
+[x] leader leader j		:	jump down by line starting
 [x] leader leader k		:	jump up by line starting
 
 ## Jump with search option (applies to whole doc)
@@ -18,7 +18,7 @@
 [x] leader leader /search_term	(both directions)
 
 
-## Jump with F{char} and f{char}
+## Jump using specific char with F{char} and f{char}
 
 [x] leader leader F{char}	: 	jump backward looking for a character		
 [x] leader leader f{char}	:	jump forward looking for a character

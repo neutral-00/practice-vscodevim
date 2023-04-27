@@ -6,7 +6,7 @@
 - to search backward use ? instead of /
 
 ## Search with last search word 
-- simply press enter
+- simply / and press enter
 
 ## Search for word under current cursor
 - press *  

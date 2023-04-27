@@ -2,4 +2,5 @@
 
 - use hjkl to move around
 - press i to start editing (insert mode)
-- back to normal mode by press ESC or ctrl + c
+- press a to start editing (a is for append)
+- be back to normal mode by press ESC or ctrl + c
